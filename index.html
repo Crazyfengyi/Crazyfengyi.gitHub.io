@@ -6,14 +6,21 @@
       function test(){
 //        alart("test");
         document.write("test");
-      }    
+      },   
+      function test2(){
+        for(int i =0,i<6,i++){
+          var a = document.getelarmbyid("idP");
+          a.innerHtml = i + "";
+        }
+      }
     </script>
   </head>
   <body>
   <p>Hello 大家好</p>
   <p>我是Crazyfengyi，这是我的个人网站。 </p>
-  <p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+  <p id="idP">很高兴你来到这里, 你可以在以下的网站找到我</p>
   <input type="button" onclick="test()" value="TestButton"></input>
+   <input type="button" onclick="test2()" value="TestButton2"></input>
   <ul>
   <li> <a href="https://www.zhihu.com/people/bu-tiao-de-ma-xiao-tiao-78/activities">知乎</a> </li>
   </ul>
