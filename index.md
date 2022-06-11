@@ -67,6 +67,6 @@ Tales Rush的3D版续作Roguelike闯关，在国内外多个平台上线，取�
 + 2.负责项目的各种渠道版本管理
 + 3.接入各种SDK
 + 4.开发部分游戏UI界面
-+ 
+
 ---
 ## [个人博客](https://www.cnblogs.com/Crazyfengyi/)
